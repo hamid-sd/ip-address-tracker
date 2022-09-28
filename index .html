@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ip addres</title>
+	<meta charset="utf-8">
+	<meta name="robots" content="index,follow" />
+	<meta name="author" content="Abdelhamid SAIDI">
+	<meta name="description" content="My name is Abdelhamid Saidi,I’m 18 years old and I’m a Freelance Full Stack Developer and Graphic Designer based in Bejaia, Algeria, here is one of my projects">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	
+	
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body id="hea">
+	<div id="load">
+		<div class="loader"></div>
+	</div>
+
+	</div>
+	<header>
+		<h1>IP Address Traker</h1>
+		<form id="frm">
+			<input type="text" id="pos" placeholder="Search for any IP address or domain" autocomplete="off">
+			<button id="btn"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg></button>
+		</form>
+		<div id="aff">
+			<div class="cord">
+				<h3 class="hhh">ID ADDRESS</h3>
+				<h2 class="hh" id="ip"></h2>
+				<span class="spn"></span>
+			</div>
+			<div class="cord">
+				<h3 class="hhh">LOCATION</h3>
+				<h2 class="hh" id="loc"></h2>
+				<span class="spn"></span>
+			</div>
+			<div class="cord">
+				<h3 class="hhh">TIMEZONE</h3>
+				<h2 class="hh" id="time"></h2>
+				<span class="spn"></span>
+			</div>
+			<div class="cord">
+				<h3 class="hhh">POSTAL CODE</h3>
+				<h2 class="hh" id="isp"></h2>
+			</div>
+		</div>
+		<div id="map">
+	</header>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
